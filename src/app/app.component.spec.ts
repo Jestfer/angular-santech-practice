@@ -29,6 +29,10 @@ describe('AppComponent', () => {
   /// MY TESTS FROM HERE ON
 
   it('should display the correct header by default', () => {
+    expect(app.header).toEqual('1|2|3 Current Account Terms & Conditions');
+  });
 
+  it('should display the correct subHeader by default', () => {
+    expect(app.subHeader).toEqual('Everything you need to know before you apply');
   });
 });

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Santech';
+  header = '1|2|3 Current Account Terms & Conditions';
+  subHeader = 'Everything you need to know before you apply';
 }
