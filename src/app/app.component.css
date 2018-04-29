@@ -9,6 +9,12 @@
 
 .container {
   width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 42pt;
 }
 
 .page-header .container {
@@ -16,6 +22,7 @@
   position: absolute;
   left: 0;
   right: 0;
+  background: linear-gradient(to bottom,rgba(255,255,255,0.9) 0%,white 100%);
 }
 
 .page-header .container .row {
@@ -32,55 +39,55 @@
 }
 
 .page-header .brackets .b-top-left {
-  top: -18px;
-  left: -18px;
-  border-right: 0;
-  border-bottom: 0;
-
   position: absolute;
   z-index: 1;
   width: 45px;
   height: 45px;
   border: 12px solid #EC0000;
+
+  top: -18px;
+  left: -18px;
+  border-right: 0;
+  border-bottom: 0;
 }
 
 .page-header .brackets .b-top-right {
+    position: absolute;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    border: 12px solid #EC0000;
+
     top: -18px;
     right: -18px;
     border-left: 0;
     border-bottom: 0;
+}
 
+.page-header .brackets .b-bottom-right {
     position: absolute;
     z-index: 1;
     width: 45px;
     height: 45px;
     border: 12px solid #EC0000;
-}
 
-.page-header .brackets .b-bottom-right {
     bottom: -18px;
     right: -18px;
     border-left: 0;
     border-top: 0;
+}
 
+.page-header .brackets .b-bottom-left {
     position: absolute;
     z-index: 1;
     width: 45px;
     height: 45px;
     border: 12px solid #EC0000;
-}
 
-.page-header .brackets .b-bottom-left {
     bottom: -18px;
     left: -18px;
     border-right: 0;
     border-top: 0;
-
-    position: absolute;
-    z-index: 1;
-    width: 45px;
-    height: 45px;
-    border: 12px solid #EC0000;
 }
 
 .page-header h1 {
