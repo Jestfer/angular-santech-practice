@@ -44,4 +44,4 @@ testem.log
 Thumbs.db
 
 # Santech Images
-/assets/img/*
+/src/assets/img/*
