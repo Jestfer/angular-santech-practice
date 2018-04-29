@@ -1,14 +1,109 @@
-.img-header {
-  width: 100%;
-  height: auto;
+.page-header {
+  background-image: url("../assets/img/Santander_123_current_account_.jpg");
+  height: 560px;
+  margin-bottom: 60px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  width: 1160px;
+}
+
+.page-header .container {
+  bottom: -41px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.page-header .container .row {
+  margin: 0;
+}
+
+.page-header .inner {
+  padding: 5% 5% 0 5%;
+}
+
+.page-header .header-main {
+  padding: 26px;
+  position: relative;
+}
+
+.page-header .brackets .b-top-left {
+  top: -18px;
+  left: -18px;
+  border-right: 0;
+  border-bottom: 0;
+
+  position: absolute;
+  z-index: 1;
+  width: 45px;
+  height: 45px;
+  border: 12px solid #EC0000;
+}
+
+.page-header .brackets .b-top-right {
+    top: -18px;
+    right: -18px;
+    border-left: 0;
+    border-bottom: 0;
+
+    position: absolute;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    border: 12px solid #EC0000;
+}
+
+.page-header .brackets .b-bottom-right {
+    bottom: -18px;
+    right: -18px;
+    border-left: 0;
+    border-top: 0;
+
+    position: absolute;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    border: 12px solid #EC0000;
+}
+
+.page-header .brackets .b-bottom-left {
+    bottom: -18px;
+    left: -18px;
+    border-right: 0;
+    border-top: 0;
+
+    position: absolute;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    border: 12px solid #EC0000;
+}
+
+.page-header h1 {
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.page-header .field-name-field-subhead {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 8pt 0;
+    padding: 0;
+    font-weight: 400;
 }
 
 .page-footer {
   text-align: center;
   height: 3.438em;
   line-height: normal;
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
   width: 100%;
   background: linear-gradient(to right,#ec0000 0,#bc2218 50%,#ec0000 100%);
 }

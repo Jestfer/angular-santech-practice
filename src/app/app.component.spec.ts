@@ -35,4 +35,16 @@ describe('AppComponent', () => {
   it('should display the correct subHeader by default', () => {
     expect(app.subHeader).toEqual('Everything you need to know before you apply');
   });
+
+  it('should render header in a h1 tag', async(() => {
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('h1').textContent).toContain('1|2|3 Current Account Terms & Conditions');
+  }));
+
+  it('should render subHeader in a h2 tag', async(() => {
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('h2').textContent).toContain('Everything you need to know before you apply');
+  }));
 });
