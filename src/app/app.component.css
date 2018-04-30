@@ -12,7 +12,21 @@
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 3.438px; /* Footer height */
+  padding-bottom: 3.438em; /* Footer height */
+}
+
+.page-footer {
+  text-align: center;
+  height: 3.438em;
+  line-height: normal;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right,#ec0000 0,#bc2218 50%,#ec0000 100%);
+}
+
+.page-footer img {
+  margin-top: 17px;
 }
 
 .container {
@@ -112,18 +126,4 @@ h1 {
     margin: 0 0 8pt 0;
     padding: 0;
     font-weight: 400;
-}
-
-.page-footer {
-  text-align: center;
-  height: 3.438em;
-  line-height: normal;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: linear-gradient(to right,#ec0000 0,#bc2218 50%,#ec0000 100%);
-}
-
-.page-footer img {
-  margin-top: 17px;
 }
