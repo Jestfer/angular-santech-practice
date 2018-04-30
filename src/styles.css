@@ -23,3 +23,8 @@ body {
 p {
   margin: 0 0 8pt;
 }
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 8pt;
+}

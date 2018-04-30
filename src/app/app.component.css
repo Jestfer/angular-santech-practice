@@ -148,12 +148,18 @@ h1 {
   margin: 0 auto 30px;
 }
 
-.text-content {
+.text {
   padding: 40px 45px;
   background-color: #FFFFFF;
 }
 
-.text p {
-  font-size: 12pt;
+.text ul {
+  list-style-type: square;
+  padding-left: 0px;
 }
 
+.text ul li {
+  list-style-position: inside;
+  margin-bottom: 0.5em;
+  font-size: 12pt;
+}
