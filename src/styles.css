@@ -1,21 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html body {
+  height: 100%;
+  position: relative;
+}
+
 body {
   margin: 0;
   font-family: Arial,sans-serif;
   font-size: 12pt;
   color: #333333;
-}
-
-.page-footer {
-  text-align: center;
-  height: 3.438em;
-  line-height: normal;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: linear-gradient(to right,#ec0000 0,#bc2218 50%,#ec0000 100%);
-}
-
-.page-footer img {
-  margin-top: 17px;
 }
