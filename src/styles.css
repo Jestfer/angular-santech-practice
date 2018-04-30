@@ -28,3 +28,8 @@ ul, ol {
     margin-top: 0;
     margin-bottom: 8pt;
 }
+
+a {
+    color: #EC0000;
+    text-decoration: none;
+}

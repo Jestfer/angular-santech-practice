@@ -48,7 +48,11 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h2').textContent).toContain('Everything you need to know before you apply');
   }));
 
-  it('should have the default contact page for Santander', () => {
+  it('should have the contact page for Santander', () => {
     expect(app.contactPage).toEqual('https://www.santander.co.uk/uk/current-accounts/current-account-contact-us');
+  });
+
+  it('should have the Account Key Fact Details', () => {
+    expect(app.accKFD).toEqual('https://www.santander.co.uk/info/sites/default/files/123-Current-Account-KFD-do-ec-182_MARCH18.pdf');
   });
 });
