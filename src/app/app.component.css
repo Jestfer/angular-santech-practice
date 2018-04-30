@@ -39,6 +39,8 @@ h1 {
   font-size: 42pt;
 }
 
+/* HEADER */
+
 .page-header .container {
   bottom: -41px;
   position: absolute;
@@ -126,4 +128,22 @@ h1 {
     margin: 0 0 8pt 0;
     padding: 0;
     font-weight: 400;
+}
+
+/* CONTENT */
+
+.bumper {
+  margin-bottom: 100px;
+}
+
+#node-226 {
+  margin-top: 40px;
+}
+
+.node-terms {
+  margin-top: 40px;
+  padding: 40px 80px 80px;
+  background-color: #F0F0F0;
+  border-bottom: 5px solid #d1d1d1;
+  margin: 0 auto 30px;
 }
