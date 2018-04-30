@@ -47,4 +47,8 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('h2').textContent).toContain('Everything you need to know before you apply');
   }));
+
+  it('should have the default contact page for Santander', () => {
+    expect(app.contactPage).toEqual('https://www.santander.co.uk/uk/current-accounts/current-account-contact-us');
+  });
 });

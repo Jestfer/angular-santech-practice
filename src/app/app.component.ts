@@ -9,4 +9,6 @@ export class AppComponent {
   title = 'Santech';
   header = '1|2|3 Current Account Terms & Conditions';
   subHeader = 'Everything you need to know before you apply';
+
+  contactPage = 'https://www.santander.co.uk/uk/current-accounts/current-account-contact-us';
 }
