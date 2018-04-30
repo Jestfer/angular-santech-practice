@@ -147,3 +147,13 @@ h1 {
   border-bottom: 5px solid #d1d1d1;
   margin: 0 auto 30px;
 }
+
+.text-content {
+  padding: 40px 45px;
+  background-color: #FFFFFF;
+}
+
+.text p {
+  font-size: 12pt;
+}
+
